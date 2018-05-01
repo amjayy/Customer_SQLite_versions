@@ -8,14 +8,14 @@ db_conn.execute("CREATE TABLE IF NOT EXISTS Customer2 (Fname VARCHAR(15),Lname V
 
 db_conn.commit()
 
-def enter_store():
-    print("Welcome to KSE mart.")
-    answer = input("Are you a returning customer? Y/N/Admin?:")
-    if answer == "n":
-        fname = input('Please enter your first name:')
-        lname = input('Please enter your last name:')
-        email = input('Please enter your email:')
-        points= input('How many points do you want:')
+#def enter_store():
+    #print("Welcome to KSE mart.")
+    #answer = input("Are you a returning customer? Y/N/Admin?:")
+    #if answer == "n":
+fname = input('Please enter your first name:')
+lname = input('Please enter your last name:')
+email = input('Please enter your email:')
+points= input('How many points do you want:')
 
         
         
